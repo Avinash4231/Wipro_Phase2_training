@@ -1,5 +1,3 @@
-import Menu from "../menu/menu";
-
 const ButtonEx = () => {
 
     const ajay = () => {
@@ -15,7 +13,6 @@ const ButtonEx = () => {
     }
     return(
         <div>
-            <Menu />
             <input type="button" value="Ajay" onClick={ajay} /> 
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <input type="button" value="Neha" onClick={neha} />
